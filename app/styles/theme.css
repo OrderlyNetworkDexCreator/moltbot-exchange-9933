@@ -2,25 +2,25 @@
   --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors - Xmolt Brand Update */
-  --oui-color-primary: 255 60 0;           /* #FF3C00 - Dominant ribbon flow */
-  --oui-color-primary-light: 255 122 80;   /* Softened warm orange */
-  --oui-color-primary-darken: 200 45 0;    /* Deepened primary for hover/active */
+  /* colors */
+  --oui-color-primary: 255 60 0;
+  --oui-color-primary-light: 255 122 80;
+  --oui-color-primary-darken: 200 45 0;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 199 74 227;            /* #C74AE3 - Magenta accent */
+  --oui-color-link: 199 74 227;
   --oui-color-link-light: 220 120 240;
 
   --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 245 97 139;          /* Retained for trading/loss UI */
+  --oui-color-danger: 245 97 139;
   --oui-color-danger-light: 250 167 188;
   --oui-color-danger-darken: 237 72 122;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 0 153 120;          /* #009978 - Teal accent */
+  --oui-color-success: 0 153 120;
   --oui-color-success-light: 80 200 170;
   --oui-color-success-darken: 0 120 95;
   --oui-color-success-contrast: 255 255 255;
@@ -30,9 +30,8 @@
   --oui-color-warning-darken: 255 152 0;
   --oui-color-warning-contrast: 255 255 255;
 
-  /* Dark-mode foundation - Xmolt institutional palette */
-  --oui-color-fill: 17 17 17;              /* #111111 - Near-black primary bg */
-  --oui-color-fill-active: 26 26 26;       /* #1A1A1A - Charcoal hover/active */
+  --oui-color-fill: 17 17 17;
+  --oui-color-fill-active: 26 26 26;
 
   --oui-color-base-1: 140 140 140;
   --oui-color-base-2: 110 110 110;
@@ -46,18 +45,18 @@
   --oui-color-base-10: 11 11 11;
 
   --oui-color-base-foreground: 255 255 255;
-  --oui-color-line: 45 45 45;              /* Subtle dividers on dark */
+  --oui-color-line: 45 45 45;
 
   --oui-color-trading-loss: 245 97 139;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 0 153 120;   /* Teal for profit */
+  --oui-color-trading-profit: 0 153 120;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients - Xmolt signature */
+  /* gradients */
   --oui-gradient-primary-start: 255 60 0;
   --oui-gradient-primary-end: 255 122 0;
 
-  --oui-gradient-secondary-start: 199 74 227;   /* Magenta accent */
+  --oui-gradient-secondary-start: 199 74 227;
   --oui-gradient-secondary-end: 255 122 0;
 
   --oui-gradient-success-start: 0 90 70;
@@ -98,6 +97,11 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
-  background-color: rgb(17 17 17) !important;
-  color: rgb(255 255 255) !important;
+}
+
+.orderly-app-container,
+.orderly-app-container *,
+.orderly-app-container *::before,
+.orderly-app-container *::after {
+  font-family: 'Manrope', sans-serif !important;
 }
