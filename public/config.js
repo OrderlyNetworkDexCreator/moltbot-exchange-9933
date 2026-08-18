@@ -1,4 +1,5 @@
 window.__RUNTIME_CONFIG__ = {
+  "VITE_DEPLOYMENT_ENV": "mainnet",
   "VITE_ORDERLY_BROKER_ID": "xmolt",
   "VITE_ORDERLY_BROKER_NAME": "XMolt",
   "VITE_BROKER_EOA_ADDRESS": "0x1f353dc42c22aee7da35aad0f4dc177be39dcdb8",
